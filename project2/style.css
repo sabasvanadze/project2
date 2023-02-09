@@ -1,0 +1,83 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+}
+
+.logo {
+    font-size: 30px;
+    margin: 25px 25px;
+}
+li {
+    list-style-type: none;
+    font-family: 'Questrial', sans-serif;
+
+}
+ul {
+    display: flex;
+    margin: 25px 25px;
+    gap: 40px;
+    color: white;
+    margin-right: 85px;
+}
+.text h1{
+    margin: 40px 150px;
+    font-size: 185px;
+    color: #ec7969;
+    line-height: 185px;
+}
+.text h2 {
+    margin-left: 150px;
+    font-size: 44px;
+    line-height: 1px;
+    color: white;
+}
+button {
+    background-color: #ec7969;
+    border-color: #ec7969;
+    cursor: pointer;
+    height: 43px;
+    width: 149px;
+    font-size: 16px;
+    margin: 40px 150px;
+    font-family: 'Questrial', sans-serif;
+
+}
+li:hover {
+    color: #ec7969;
+    transition: 0.6s;
+    cursor: pointer;
+}
+main{
+    background-image: url(https://static.wixstatic.com/media/ea71bb_477de1c2576546939e2d90e0c18e09e0~mv2_d_5906_3226_s_4_2.jpg/v1/fill/w_1899,h_813,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ea71bb_477de1c2576546939e2d90e0c18e09e0~mv2_d_5906_3226_s_4_2.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 810px;
+}
+.social {
+    display: flex;
+    margin-top: -380px;
+    gap: 35px;
+    flex-direction: column;
+    text-align: end;
+    margin-right: 25px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+.wix h3 {
+    font-size: 14px;
+    color: white;
+    margin: 290px 100px;
+    font-family: 'Questrial', sans-serif;
+
+}
+
